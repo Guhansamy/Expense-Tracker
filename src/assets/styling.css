@@ -1,0 +1,121 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    /* background-color: paleturquoise; */
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.main-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.income-expense-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    margin:  20px auto;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px rgb(78, 214, 128);
+}
+
+.income-expense-container > h3 {
+    margin: 0px;
+}
+
+.main-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.history-positive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    margin:  20px auto;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 10px rgb(63, 243, 3);
+    /* background-color: rgb(194, 223, 151); */
+    /* border: 1px solid black; */
+    /* border-right-color: greenyellow;  */
+}
+
+.history-positive:hover {
+    background-color: rgb(194, 223, 151);
+}
+
+.history-negative {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    margin:  20px auto;
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 10px rgb(250, 100, 1);
+    /* background-color: rgb(230, 189, 189); */
+    /* border: 1px solid black;
+    border-right-color: red;  */
+}
+
+.history-negative:hover {
+    background-color: rgb(230, 189, 189);
+}
+
+.Expense-Items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Expense-Items > .del-button {
+    height: 30px;
+    margin-left: 15px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inp-fir {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 300px;
+    box-shadow: 0px 0px 20px rgb(150, 31, 156);
+    border-radius: 20px;
+    /* border: 2px solid black; */
+}
+
+.des-box {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.des-box .t-inp {
+    margin-left: 25px;
+}
+.amnt-box .a-inp{
+    margin-left: 25px;
+}
+
+.inp-fir > button {
+    margin-top: 25px;
+    background-color: green;
+    color: aliceblue;
+    width: 55px;
+    border-radius: 5px;
+}
